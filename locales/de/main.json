@@ -1,0 +1,1708 @@
+{
+  "title": "Cofinity-X Portal",
+  "pages": {
+    "home": "Startseite",
+    "registration": "Onboarding Registrierung",
+    "swagger": "Swagger OpenAPI Definition",
+    "storybook": "Storybook Shared Component Library",
+    "marketplace": "Marktplatz",
+    "appmarketplace": "App Marktplatz",
+    "servicemarketplace": "Service Marketplace",
+    "dataspacemarketplace": "Dataspace Marketplace",
+    "appdetails": "App Details",
+    "datamanagement": "Datenmanagement",
+    "datacatalog": "Datenkatalog",
+    "semantichub": "Semantische Modelle",
+    "digitaltwin": "Digitale Zwillinge",
+    "digital": "Digital",
+    "twins": "Zwillinge",
+    "developerhub": "Entwickler Hub",
+    "connector": "Konnektor",
+    "partnernetwork": "Partnernetzwerk",
+    "account": "Konto verwalten",
+    "organization": "Meine Organisation",
+    "notifications": "Benachrichtigungen",
+    "usermanagement": "Benutzerverwaltung",
+    "identityUserManagement": "Identitätsbenutzerverwaltung",
+    "appaccessmanagement": "App-Zugriffsverwaltung",
+    "idpmanagement": "Identitätsprovider (IDP)",
+    "identity": "Identität",
+    "technical": "Technisch",
+    "app": "App",
+    "apps": "Anwendungen",
+    "accessManagement": "Zugriffsverwaltung",
+    "technicalsetup": "Technische Integration",
+    "applicationrequests": "Beitrittsanträge",
+    "admin": "Verwaltung",
+    "developer": "Entwicklung",
+    "invite": "Geschäftspartner einladen",
+    "help": "Hilfe",
+    "documentation": "Dokumentation & Hilfe",
+    "contact": "Kontakt",
+    "imprint": "Impressum",
+    "privacy": "Privatsphäre",
+    "terms": "Nutzungsbedingungen",
+    "cookiepolicy": "Cookies",
+    "3rdpartylicenses": "Drittanbieterlizenzen",
+    "logout": "Abmelden",
+    "notfound": "Seite nicht gefunden",
+    "appmanagement": "App Management",
+    "appoverview": "App-Übersicht",
+    "deactivate": "Deactivate",
+    "appreleaseprocess": "App Release Process",
+    "appsubscription": "App Subscription MGT",
+    "adminboard": "Admin Board",
+    "appusermanagement": "App Benutzer Verwaltung",
+    "userdetails": "Benutzer Details",
+    "technicaluser": "Technische Benutzer Verwaltung",
+    "techuserdetails": "Technischer Benutzer Details",
+    "companyroles": "Company Roles",
+    "companyrolesparticipant": "Participant",
+    "companyrolesappprovider": "App Provider",
+    "companyrolesserviceprovider": "Service Provider",
+    "companyrolesconfirmitybody": "Confirmity Body",
+    "usecase": "Use Case",
+    "usecasetraceablity": "Traceablity",
+    "servicemanagement": "Service Management",
+    "serviceoverview": "Service Overview",
+    "servicereleaseprocess": "Service Release Process",
+    "serviceadminboard": "Admin Board",
+    "servicesubscription": "Service Subscription Mgt",
+    "countryrisk": "Country Risk Dashboard",
+    "servicedetail": "Service Details"
+  },
+  "overlays": {
+    "invite": "Neuen Geschäftspartner einladen",
+    "add_user": "Neuen Benutzer hinzufügen",
+    "add_techuser": "Neuen technischen Benutzer hinzufügen",
+    "idp_delete_info_title": "Löschung des Identitätsanbieters.",
+    "idp_delete_info_intro": "Bitte beachten Sie, dass alle Benutzer, die nicht auf das neue iDP migriert werden, unwiderruflich gelöscht werden.",
+    "idp_delete_success_title": "Identitätsanbieter {{name}} wurde erfolgreich gelöscht.",
+    "idp_delete_success_intro": "Das Fenster wird automatisch geschlossen. Falls dies nicht der Fall ist, verwenden Sie bitte die Schaltfläche 'Schließen' oben rechts.",
+    "idp_delete_error_title": "Der Identitätsanbieter wurde nicht gelöscht.",
+    "idp_delete_error_intro": "Bitte versuchen Sie es erneut oder wenden Sie sich an einen Administrator, falls der Fehler weiterhin auftritt.",
+    "idp_delete_tooltip_info": "Bitte deaktivieren Sie zuerst den Dienst oder stellen Sie sicher, dass einer der Dienste für das folgende Unternehmen funktioniert.",
+    "idp_status_change_success": "Identitätsanbieter {{ name }} war erfolgreich {{ status }}",
+    "idp_status_change_error": "Der Identitätsanbieter war nicht {{ status }}",
+    "idp_status_change_info": "{{status}} Identitätsanbieter",
+    "idp_status_change_intro2": "Möchten Sie diesen Identitätsanbieter wirklich aktivieren?",
+    "idp_status_change_intro1": "Das Deaktivieren des IDP führt immer zur Deaktivierung, aber nicht zum Löschen. Sie können es jederzeit wieder aktivieren",
+    "idp_status_tooltip_info": "Mindestens ein Unternehmensdienst muss aktiviert sein",
+    "idp_test_intro1": "Identitätsanbieter wurde erfolgreich erstellt.",
+    "idp_test_intro2": "Der IdP ist vorerst deaktiviert und wird unten aktiviert.",
+    "idp_test_description": "Bitte beachten Sie, dass Sie vor dem Aktivieren des IDP und dem Anmeldeversuch auch die IDP-Verbindung auf Ihrer Seite einrichten und Ihren CX-Benutzer mit der IDP-Verbindung verbinden müssen. Um dies zu ermöglichen, füllen Sie bitte die folgenden Felder aus.",
+    "idp_test_step_text1": "Schritt-für-Schritt-Ansatz",
+    "idp_test_step_text2": "Richten Sie Ihren eigenen Benutzer für den neuen IDP ein, indem Sie Ihr Benutzerprofil erweitern.",
+    "idp_test_step_text3": "Aktivieren Sie den IDP.",
+    "idp_test_step_text4": "Führen Sie einen Test im Inkognito-Modus Ihres Browsers durch.",
+    "idp_test_username_label": "Geben Sie den Benutzernamen im neuen IDP ein",
+    "idp_test_userid_label": "Geben Sie die Benutzer-ID im neuen IDP ein",
+    "idp_form_userId_error": "Bitte geben Sie eine gültige Benutzer-ID ein",
+    "idp_form_username_error": "Bitte geben Sie einen gültigen Benutzername ein"
+  },
+  "actions": {
+    "SignOut": "Abmelden",
+    "Lang_de": "Sprache auf Deutsch stellen",
+    "Lang_en": "Sprache auf Englisch stellen"
+  },
+  "content": {
+    "admin": {
+      "registration-requests": {
+        "columns": {
+          "date": "Eingereichtes Datum",
+          "companyinfo": "Bewerbungsinformationen des Unternehmens",
+          "documents": "Unterlagen",
+          "details": "Einzelheiten",
+          "state": "Zustand"
+        },
+        "enterBpn": "Enter Business Partner Number",
+        "bpnError": "Valid BPN eg: BPNLXXXXXXXXXXXX",
+        "headertitle": "Admin Board",
+        "headersubtitle": "Application",
+        "introText1": "Das Application Panel enthält alle aktuell ausstehenden Cofinity-X Bewerberanfragen, sowie eine Übersicht über bestätigte und abgelehnte Applications im Cofinity-X Netzwerk.",
+        "introText2": "Mit der Genehmigung des Antrages, wird dem Berwerberunternehmen Zugang zum CX-Portal gegeben, um das technische und funktionale Onboarding zu starten. Bitte stellen Sie sicher, dass Sie die Antragsdetails validieren, bevor Sie einen Antrag genehmigen.",
+        "tabletitle": "Registrierungsanfragen",
+        "pending": "anstehend",
+        "buttonconfirm": "bestätigen",
+        "buttondecline": "ablehnen",
+        "buttonprogress": "In progress",
+        "cellconfirmed": "Destätigt",
+        "celldeclined": "Abgelehnt",
+        "progress": "Bestätigung läuft: ",
+        "cancel": "Vorgang abbrechen",
+        "overlay": {
+          "title": "Angaben zur Firmenregistrierung",
+          "companydatatitle": "Überblick",
+          "companydatadescription": "Nachfolgend finden Sie die Details der Firmenregistrierung",
+          "taxid": "Steuernummer",
+          "address": "Adresse",
+          "docs": "Unterlagen)",
+          "roles": "Unternehmensrolle(n)",
+          "activeParticipation": "Teilnehmer",
+          "appProvider": "App Anbieter",
+          "serviceProvider": "Service Anbieter",
+          "noinfo": "keine Daten verfügbar",
+          "commercialRegisterNumber": "Handelsregisternummer",
+          "vatId": "VAT ID",
+          "leiCode": "LEI Code",
+          "vies": "VIES",
+          "eori": "EORI",
+          "tab1": "Firmen Daten",
+          "tab2": "Registrierungsprozess",
+          "tab1Title": "Firmen Daten",
+          "tab2Title": "Bestätigung {{status}}",
+          "statusComplete": "[complete]",
+          "statusIncomplete": "[incomplete]",
+          "approvedButton": "genehmigt",
+          "failedButton": "fehlgeschlagen"
+        },
+        "confirmmodal": {
+          "title": "Aktion bestätigen",
+          "description": "Möchten Sie die ausgewählte Anfrage wirklich ausführen?"
+        },
+        "confirmCancelModal": {
+          "title": "Bewerbungsverfahren ablehnen",
+          "description": "Sind Sie sicher, dass Sie den Bewerbungsprozess von {companyName} abbrechen möchten?",
+          "details": "Mit der Stornierung wird das Unternehmen informiert und die optional Stornierungsnachricht (wenn verfügbar) wird übermittelt.",
+          "note": "Bitte beachten Sie, dass die Stornierung dem Unternehmen keine erneute Registrierung ermöglicht, solange keine neue Einladung ausgelöst wird.",
+          "inputLabel": "Stornierungsnachricht",
+          "error": "Mindestens 3 Zeichen erforderlich."
+        },
+        "addBpn": {
+          "successTitle": "Update BPN number successfully completed",
+          "successDescription": "Update BPN number successfully completed.",
+          "errorTitle": "Something went wrong",
+          "errorDescription": "Something went wrong. Please try it later again or contact your administrator."
+        },
+        "filter": {
+          "all": "Alle",
+          "review": "Im Rückblick",
+          "closed": "Geschlossen"
+        }
+      }
+    },
+    "news": {
+      "title": "Neuigkeiten"
+    },
+    "home": {
+      "stage": {
+        "title": "Cofinity-X",
+        "subtitle": "Der <span>Eintritt</span> in das digitale, <label>automobile</label> Netzwerk",
+        "cxButton": "Mein CX",
+        "appButton": "Meine Apps",
+        "preferredApplicationsTitle": "Bevorzugte Anwendungen",
+        "suggestedApplicationsTitle": "Empfohlene Anwendungen",
+        "applications": "Anwendungen",
+        "services": "Dienstleistungen",
+        "exploreMore": "Mehr erfahren",
+        "applicationParagraph": "Einsatzbereite und einfach zu implementierende Apps, die für eine Vielzahl relevanter Anwendungsfälle entwickelt wurden – von der Rückverfolgbarkeit der Lieferkette über die CO2-Verfolgung bis hin zu gemeinsamen Innovationen.",
+        "serviceParagraph": "Unsere Services unterstützen Ihren Zugang zum Catena-X-Ökosystem und stellen das Wesentliche für den Datenaustausch für alle Teilnehmer und Entwickler bereit.",
+        "comingSoon": "Demnächst verfügbar",
+        "favvoriteApplicationLabel": "Hier wird Ihre bevorzugte Anwendung angezeigt",
+        "preferenceText": "Basierend auf Ihren Präferenzen"
+      },
+      "searchSection": {
+        "inputPlaceholder": "Suche in Cofinity-X"
+      },
+      "businessApplicationsSection": {
+        "title": "Meine Applications"
+      },
+      "appStoreSection": {
+        "title": "Neue Apps"
+      },
+      "emptyCards": {
+        "title": "New apps will get added here as soon as you have any assigned"
+      }
+    },
+    "appstore": {
+      "stage": {
+        "title": "Cofinity-X App Store",
+        "subtitle": "Ein skalierendes und erweiterbares Ökosystem",
+        "appButton": "App Übersicht"
+      },
+      "favoriteSection": {
+        "title": "Meine Favoriten",
+        "myFavorite": "Meine Favoriten",
+        "noFavoriteDescription": "Ihre App Favoriten werden in diesem Abschnitt angezeigt, sobald Favoriten ausgewählt sind."
+      },
+      "appOverviewSection": {
+        "title": "App Übersicht",
+        "automativeDigitalSolutions": "Lösungen für Automotive Digital",
+        "automativeDigitalGateway": "Das Tor zum <br /> Automotive Digital Network",
+        "hmi": "Lassen Sie uns gemeinsam die <br/> Zukunft der Automobilindustrie ankurbeln.",
+        "busineespartnerbutton": "Erweitern Sie das Netzwerk und <br/> laden Sie Ihre Geschäftspartner ein!",
+        "label": "Geschäftspartner einladen",
+        "sponseredTitle": "Gesponsert",
+        "favoriteAppLimit": "Sie können nicht mehr als 4 Apps als Favoriten auswählen",
+        "showingTitle": "Anzeigen",
+        "resultTitle": "Ergebnis",
+        "resultsTitle": "Ergebnisse",
+        "exploreMore": "Erkunde mehr",
+        "categoryViews": {
+          "all": "Alle",
+          "useCases": "Anwendungsbereiche"
+        },
+        "categories": {
+          "none": "Nicht kategorisiert",
+          "businesspartnermanagement": "Geschäftspartner Datenmanagement",
+          "circulareconomy": "Kreislaufwirtschaft",
+          "quality&demandmanagement": "Bedarfs- & Qualitätsmanagement",
+          "demandandcapacitymanagement": "Bedarfs- & Kapazitätsmanagement",
+          "traceability": "Rückverfolgbarkeit",
+          "manufacturingasaservice": "Produzieren als Dienst"
+        },
+        "noMatch": "Keine Treffer",
+        "for": "für"
+      }
+    },
+    "semantichub": {
+      "title": "Semantische ",
+      "title2": "Datenmodelle",
+      "introText_0": "Semantische Modelle dienen zur Strukturierung von Daten. Als Konzept ermöglichen sie es, Daten und ihren Beziehungen eine grundlegende Bedeutung zu verleihen. Im Rahmen der Datenmodellierung und Datenorganisation realisieren sie die einfache Entwicklung von Anwendungen wie auch die Aufrechterhaltung von Datenkonsistenz.",
+      "introText_1": "In Cofinity-X werden semantische Datenmodelle in einem geeigneten Publikationssystem, dem sogenannten Semantic Hub, bereitgestellt. Für Daten bzw. Service Anbieter stellt der Semantic Hub  eine Grundlage für die Nutzung und Wiederverwendung von semantischen Modellen. Aus diesem Grund erfolgt die Veröffentlichung eines semantischen Datenmodells unter der Angabe einer Version. Dies fördert Transparenz wie auch Kontrolle über alle semantischen Modelle und deren Freigabestatus.",
+      "addModel": "Neues Model anlegen",
+      "alerts": {
+        "alertSuccessTitle": "Erfolg!",
+        "alertErrorTitle": "Fehler!",
+        "uploadSuccess": "Modell wurde erfolgreich hochgeladen.",
+        "deleteSuccess": "Modell wurde erfolgreich gelöscht."
+      },
+      "table": {
+        "title": "Semantische Datenmodelle",
+        "searchfielddefaulttext": "Suche mit Name",
+        "filter": {
+          "namespaceLabel": "Namespace",
+          "namespacePlaceholder": "Filtern der Modelle nach Namespace",
+          "objNameLabel": "Objektname",
+          "objNamePlaceholder": "Filtern der Modelle nach Objektname",
+          "selectLabel": "Wähle Objekttyp aus",
+          "button": "Suchen",
+          "resetButton": "Zurücksetzen"
+        },
+        "columns": {
+          "name": "Name",
+          "status": "Status",
+          "type": "Sprache",
+          "version": "Version",
+          "src": "Quelle",
+          "details": "Details"
+        }
+      },
+      "importDialog": {
+        "title": "Modell importieren",
+        "buttonConfirm": "Hochladen",
+        "buttonCancel": "Abbrechen"
+      },
+      "deleteDialog": {
+        "title": "Aspekt Modell löschen",
+        "subtitle": "Bist du sicher, dass du das aktuelle Modell löschen möchtest?",
+        "info": "Notiz: Falls das Modell gelöscht wird, kann es später nicht wieder hergestellt werden.",
+        "buttonConfirm": "Löschen",
+        "buttonCancel": "Abbrechen"
+      },
+      "detail": {
+        "deleteButton": "Modell löschen",
+        "diagramTitle": "Diagramm des Aspekts",
+        "urnLabel": "Aspekt-Modell URN",
+        "imgAlt": "Modelldiagram",
+        "downloads": {
+          "ttl": "TTL Datei",
+          "docu": "Dokumentation",
+          "json": "JSON Schema",
+          "payload": "Beispiel Payload JSON",
+          "aasAasx": "AAS Datei",
+          "aasXml": "AAS XML"
+        },
+        "aasSelect": {
+          "label": "Wähle eine Download-Format aus",
+          "itemFile": "AASX",
+          "itemXml": "XML"
+        },
+        "fileError": "Fehler: Die Datei konnte nicht geladen werden.",
+        "ttlTooltip": "Das runtergeladene Turtle-Dokument sieht anders aus, ist jedoch semantisch das gleiche im Vergleich zum hochgeladenen Aspekt Turtle-Dokument. Um bestehende Aspekte weiterzuentwickeln, beziehen Sie sich auf die Turtle-Quelldateien (z. B. im Cofinity-X BAMM Model GitHub Repository).",
+        "downloadTitle": "Download-Optionen für das Aspekt-Modell",
+        "openApi": {
+          "inputLabel": "Gebe eine URL ein, um den Basis-Pfad der Open API URL zu ändern.",
+          "inputPlaceholder": "Default URL",
+          "buttonText": "Neue URL speichern",
+          "buttonTitle": "Open API JSON generieren"
+        },
+        "nomodelTitle": "Oooops! Kein Modell gefunden!",
+        "nomodelText": "Die verwendete URN ist entweder falsch, oder das Modell existiert noch nicht."
+      }
+    },
+    "digitaltwin": {
+      "titleText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+      "table": {
+        "title": "Übersicht Digitale Zwillinge",
+        "searchfielddefaulttext": "Teile-Instanz-ID des Assets",
+        "norows": "keine Daten mit diesem Wert {data} gefunden",
+        "columns": {
+          "idShort": "Name",
+          "sm_count": "Anzahl Submodelle",
+          "asset_count": "Anzahl Assets"
+        }
+      },
+      "detail": {
+        "error": "FEHLER: Es gibt keine Details zu diesem Asset.",
+        "no_description": "Dieses Asset hat keine Beschreibung.",
+        "assetId": "Specific Asset IDs",
+        "submodel_endpoints": "Submodell Endpunkte:",
+        "semanticid": "Semantic ID:",
+        "key": "Schlüssel:",
+        "value": "Wert:",
+        "endpoints": "Endpunkte:",
+        "interface": "Schnittstelle:",
+        "protocol": "Protokoll:",
+        "protocol_version": "Protokoll Version:",
+        "protocol_endpoint": "Aspekt Endpunkt:"
+      }
+    },
+    "organization": {
+      "company": {
+        "title": "Firmendetails",
+        "error": "Fehler - keine Daten gefunden",
+        "name": "Name der Firma: ",
+        "address": "Adresse: ",
+        "city": "Stadt: ",
+        "bpn": "BPN: "
+      },
+      "subscriptions": {
+        "title": "App-Abonnements",
+        "error": "Fehler - keine Daten gefunden"
+      }
+    },
+    "datamanagement": {
+      "message": "Inhalte vom Datenmanagement"
+    },
+    "datacatalog": {
+      "message": "Inhalte vom Datenkatalog"
+    },
+    "developerhub": {
+      "message": "Inhalte vom Entwickler Hub"
+    },
+    "appoverview": {
+      "headerTitle": "Meine Applikationen",
+      "title": "App-Übersicht",
+      "inputPlaceholder": "Suchen Sie nach Apps",
+      "recently": {
+        "header": "Kürzlich gewechselt",
+        "subheader": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ."
+      },
+      "filter": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "wip": "In Arbeit"
+      },
+      "sortOptions": {
+        "deactivate": "Deactivate"
+      },
+      "addbtn": "Registrieren Sie Ihre App",
+      "confirmModal": {
+        "title": "Appbeschreibung '{appName}' öffnen",
+        "description": "The app configuration is currently 'work in progress'. Do you want to open the app release process for {appName} and further enhance the app details? Please note you do not need to finish the app release configuration. You can use the save button and proceed later if wanted."
+      },
+      "details": {
+        "longDescription": "Detailbeschreibung",
+        "price": "Preisinformation:",
+        "language": "Unterstütze Sprachen:",
+        "useCase": "Use Case:",
+        "title": "Übermittelte App-Details",
+        "description": "The app {appName} is already submitted for review by the network administrator to publish the app on the market place. Till the review is finished, you can not do any changes to the app"
+      },
+      "submenuNotAvail": "Sub-Menu is not available for not active apps."
+    },
+    "deactivate": {
+      "headerTitle": "Deaktivierung Business-App",
+      "description": "Die Deaktivierung von Geschäftsanwendungen deaktiviert das App-Angebot innerhalb des Cofinity-X-Marktplatzes. Alle derzeit aktiven Abonnements bleiben aktiv und Kunden sind von der Deaktivierung nicht betroffen. Neue Abonnements sind nicht möglich.",
+      "checkboxLabel": "Hiermit bestätige ich, dass ich die Geschäftsbedingungen der Business-App zur Kenntnis genommen habe und meine Firmen-Business-App mit sofortiger Wirkung vom Marktplatz deaktiviere. Ich habe verstanden, dass es nicht möglich ist, die Deaktivierung selbstständig rückgängig zu machen.",
+      "checkboxErrorMsg": "Bitte bestätigen Sie, dass Sie die obigen Deaktivierungsauswirkungen gelesen haben, bevor Sie fortfahren",
+      "successMsg": "Deactivierung war erfolgreich.",
+      "errorMsg": "Leider hat die Deaktivierung nicht funktioniert. Bitte versuchen sie es später nochmal"
+    },
+    "appreleaseprocess": {
+      "message": "Nachricht zum App-Release-Prozess"
+    },
+    "connector": {
+      "message": "Inhalt des Connectors"
+    },
+    "edcconnector": {
+      "columns": {
+        "name": "Konnektorname",
+        "id": "Konnektor-ID",
+        "type": "Steckertyp",
+        "details": "Status",
+        "location": "Standort",
+        "status": "DAPS-Authentifizierungsstatus",
+        "tooltipText": "Connector's status is pending",
+        "sdDescription": "SD Registration",
+        "sdRegistrationToolTip": "Die Selbstbeschreibung wurde ausgelöst. Der Vorgang kann bis zu ein paar Minuten dauern.",
+        "hostCompanyName": "Host"
+      },
+      "rowValue": {
+        "owned": "Besitz",
+        "managed": "Gelang es"
+      },
+      "helpText": "Hilfe holen",
+      "headertitle": "Connector-Registrierung",
+      "headerLabel": "Verbinder",
+      "subHeaderLabel": "Anmeldung",
+      "subheadertitle": "Verbinder",
+      "tabletitle": "Integrierte Anschlüsse",
+      "imagetext": "Connectoren kombiniert die Vorteile von IDS-Konnektoren (sichere und standardisierte Kommunikation, Kontrolle der Datennutzung) mit der Interoperabilität.",
+      "addconnectorbutton": "Neuen Konnektor registrieren",
+      "fileTypeMsg": "Akzeptierter Dateityp - .cert, .crt und .pem",
+      "fileSizeMsg": "Dateigröße - <8 MB",
+      "snackbar": {
+        "successmessage": "Edc-Konnektor erfolgreich hinzugefügt",
+        "errormessage": "Fehler! Etwas ist schief gelaufen. Der Konnektor wurde nicht angelegt."
+      },
+      "deletemodal": {
+        "title": "EDC-Connector Löschen",
+        "description": "Möchten Sie den ausgewählten Connector wirklich löschen? Die Löschung kann nicht rückgängig gemacht werden."
+      },
+      "modal": {
+        "company": {
+          "title": "Verbinden Sie den Unternehmenskonnektor",
+          "intro": "Registrierung eines Company Connectoren, welcher im eigenen Firmennetz implementiert ist."
+        },
+        "managed": {
+          "title": "Registrieren Sie den verwalteten Connector",
+          "intro": "Registrieren Sie einen verwalteten Konnektor Ihres Kunden / Drittanbieters, der bereitgestellt wird. Diese Auswahl ist hauptsächlich für Dienstanbieter relevant, die verwaltete Konnektoren für Datenanbieter/-verbraucher anbieten. Wenn Sie Ihren eigenen Connector registrieren möchten, verwenden Sie bitte die Auswahl oben."
+        },
+        "daps": {
+          "title": "Erstellen Sie eine DAPS-Registrierung",
+          "intro": "Weit, weit weg, hinter den Wortbergen, weit weg von den Ländern Vokalia und Consonantia leben die Blindtexte",
+          "error": "Die daps-Registrierung ist fehlgeschlagen. Bitte überprüfen Sie das hochgeladene Dokument erneut"
+        },
+        "companyconnectorlabel": "Verbinden Sie den Unternehmenskonnektor",
+        "connectorasaservice": "Connector-as-a-service",
+        "insertform": {
+          "name": {
+            "label": "Name*",
+            "placeholder": "Konnektorname",
+            "error": "Der Connector-Name ist obligatorisch. Die Länge sollte zwischen 2 und 20 liegen",
+            "tooltipMsg": "Eigener ausgewählter Konnektorname zur Überprüfung"
+          },
+          "url": {
+            "label": "Connector-URL*",
+            "placeholder": "Connector-URL",
+            "error": "Geben Sie eine gültige URL ein - zB: https://cofinity-x.com",
+            "tooltipMsg": "URL des Connector-Endpunkts. Es sind nur https://-Endpunkte zulässig"
+          },
+          "bpn": {
+            "label": "Eigentümer des Konnektors*",
+            "placeholder": "Nur BPNLs sind erlaubt",
+            "error": "BPN ist obligatorisch. Gültige BPN, z. B.: BPNLXXXXXXXXXXXX",
+            "tooltipMsg": "BPN des Unternehmens, in dessen Namen der Konnektor verwendet wird, um Datenangebote zu generieren oder Daten zu konsumieren"
+          },
+          "country": {
+            "label": "Standort*",
+            "placeholder": "Zweistelliger Ländercode",
+            "error": "Gültiger Code zB: DE, US",
+            "tooltipMsg": "Connector-Standort - Nachricht, die hinzugefügt werden soll"
+          },
+          "doc": {
+            "label": "Öffentlicher Authentifizierungsschlüssel/Zertifikat*",
+            "error": "Bitte verwenden Sie einen gültigen Typ. z.B. .pem; .zert",
+            "tooltipMsg": "Laden Sie das Zertifikat hoch, das die öffentlichen Schlüsselinformationen Ihres Connectors enthält."
+          }
+        },
+        "create": {
+          "successTitle": "Konnektor erstellen erfolgreich abgeschlossen",
+          "successDescription": "Konnektor erstellen erfolgreich abgeschlossen.",
+          "errorTitle": "Etwas ist schief gelaufen",
+          "errorDescription": "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut oder wenden Sie sich an Ihren Administrator."
+        },
+        "delete": {
+          "successTitle": "Konnektor löschen erfolgreich abgeschlossen",
+          "successDescription": "Konnektor löschen erfolgreich abgeschlossen.",
+          "errorTitle": "Etwas ist schief gelaufen",
+          "errorDescription": "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut oder wenden Sie sich an Ihren Administrator."
+        }
+      }
+    },
+    "partnernetwork": {
+      "headertitle": "Partner",
+      "headersubtitle": "netzwerk",
+      "tabletitle": "Geschäftspartnerdaten",
+      "content": "Das Catena-X Partnernetzwerk ist das Rückgrat des souveränen Datenaustauschs über Wertschöpfungsketten hinweg. Zeigen Sie Details zu Partnern und deren Mitgliedschaftsstatus an.",
+      "columns": {
+        "bpn": "BPN",
+        "name": "Firmenname",
+        "country": "Land",
+        "street": "Straße",
+        "zipcode": "PLZ",
+        "city": "PLZ/Stadt",
+        "cxparticipant": "CX-Mitglied",
+        "address": "Anschrift",
+        "identifiers": "Identifikatoren"
+      },
+      "filters": {
+        "germany": "Deutschland",
+        "others": "Andere"
+      },
+      "message": "Inhalte vom Partner Netzwerk",
+      "searchfielddefaulttext": "Suchen Sie nach Firmennamen oder BPN",
+      "searchfielderrormessage": "ungültige Daten",
+      "membershipnotificationtitle": "Das Mitgliedschafts-Flag kann nicht abgerufen werden.",
+      "membershipnotificationdescription": "Bitte beachten Sie, dass die Mitgliedsinformationen möglicherweise falsch sind.",
+      "searchbuttonlabel": "Suche",
+      "overlay": {
+        "title": "Firmendetails",
+        "companydatatitle": "Firmen Data",
+        "legalform": "Rechtsform"
+      }
+    },
+    "invite": {
+      "headerTitle": "Business Partner ",
+      "headerTitle2": "Invite",
+      "headerIntro": "Fügen Sie unten den Registrierungskontakt des Geschäftspartners und den Firmennamen hinzu.",
+      "subHeaderTitle": "Invite a new partner",
+      "inviteText1": "Einladungsprozess für die Registrierungsanwendung. Laden Sie einen neuen Partner zu Cofinity-X ein.",
+      "inviteText2": "Invite a new partner to Cofinity-X.",
+      "invite": "Laden Sie neue Geschäftspartner ein",
+      "buttonLabel": "Einladen",
+      "success": "Business Partner Einladung erfolgreich gesendet.",
+      "successSubText": "Das Fenster wird automatisch geschlossen. Falls dies nicht der Fall ist, verwenden Sie bitte die Schaltfläche 'Schließen' oben rechts.",
+      "failure": "Error - Business Partner Einladung schlug fehl.",
+      "failureSubText": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+      "tabletitle": "Invites",
+      "columns": {
+        "companyName": "Unternehmensname",
+        "firstAndLastName": "Vor- und Nachname",
+        "date": "Datum",
+        "status": "Status",
+        "details": "Details"
+      }
+    },
+    "userAdded": {
+      "success": "User added successfully",
+      "failure": "User was not added"
+    },
+    "provisionIdp": {
+      "title": "Verbinden Sie Ihren IDP",
+      "send": "IDP Provisionierung absenden",
+      "field": {
+        "organization": "Ihre Organisation",
+        "metadata": "Metadaten URL des IDP (well-known)",
+        "clientId": "Client ID des IDP",
+        "clientSecret": "Client secret des IDP",
+        "clientAuthMethod": "Authentisierung des Client"
+      },
+      "success": "Ihr Identitätsprovider wurde erfolgreich eingerichtet",
+      "failure": "Die Verarbeitung Ihrer Anfrage ist fehlgeschlagen"
+    },
+    "usermanagement": {
+      "title": "Benutzerverwaltung",
+      "inviteUser": "Benutzer einladen",
+      "description": "Alle dem Unternehmen zugewiesenen Benutzer anzeigen und verwalten. Rollenzuweisung, erstelle neue Benutzerkonten, sowie technische Accounts.",
+      "titleText": "Semantische Modelle werden verwendet, um Daten zu strukturieren. Als Konzept ermöglichen sie es, Daten und ihren Beziehungen grundlegende Bedeutung zu geben. Im Rahmen der Datenmodellierung und Datenorganisation realisieren sie die Entwicklung von Anwendungen sowie die Wahrung der Datenkonsistenz.",
+      "apparea": {
+        "headline": "App Zugriffsmanagement",
+        "appsNotAvailable": "Apps sind verfügbar, sobald Geschäftsanwendungen abonniert und aktiviert sind"
+      },
+      "table": {
+        "headline": "Benutzerkontenverwaltung",
+        "title": "User Liste",
+        "details": "Details",
+        "add": "User hinzufügen",
+        "noRowsMsg": "No unassigned user available. All users have at least one app role assigned."
+      },
+      "appUserDetails": {
+        "headline": "App Zugriffsmanagement - {{app}}",
+        "subheadline": "App Zugriffsmanagement",
+        "userRoleSuccessMsg": "Benutzerrollen wurden erfolgreich aktualisiert.",
+        "userRoleErrorMsg": "Etwas ist schief gelaufen. Benutzerrollen wurden nicht aktualisiert.",
+        "header": {
+          "title": "App Rollen",
+          "subtitle": "Für die App stehen folgende Rollen zur Verfügung. Über das Feld 'Rollenbeschreibung' können sie detailierte Informationen zu den Rechten der Rollen erhalten. Um eine Rolle einem User hinzuzufügen, nutzen Sie bitte den Button 'Add Role' unter den Rollenbeschreibungen"
+        },
+        "table": {
+          "headline": "Benutzermanagement",
+          "title": "Benutzer Liste",
+          "add": "Benutzerrolle hinzufügen",
+          "noRowsMsg": "No users assigned till now. Start to assign by clicking on Add Role"
+        },
+        "roles": {
+          "error": {
+            "title": "Error",
+            "message": "Incorrect Application Id"
+          }
+        },
+        "editRoles": {
+          "title": "Manage roles for ",
+          "subtitle": "The user cannot enter his account until he has set a new password."
+        }
+      },
+      "technicalUser": {
+        "titleText": "Es ist eine seit langem bekannte Tatsache, dass ein Leser durch den lesbaren Inhalt einer Seite abgelenkt wird (wir brauchen hier Inhalt oder wir können ihn entfernen).",
+        "serviceaccount": "Technischer Benutzer",
+        "create": "Technischen Nutzer anlegen",
+        "delete": "Technischen Nutzer entfernen",
+        "headline": "Technical User Management {{company}}",
+        "descriptionHeader": "Technical User Management {{company}}",
+        "descriptionText": "Der technische Benutzer ist eine Identität, die ein Unternehmen verwenden kann, um sich mit CX-Backend-Diensten ohne ständige Trennung zu verbinden. Zum Beispiel ist ein technischer Run-As-Benutzer erforderlich, um sich mit der Registrierung für digitale Zwillinge oder dem semantischen Modell zu verbinden. Bitte verwenden Sie die Aktionsschaltfläche, um einen neuen technischen Benutzer mit den Rollen gemäß Ihren Anforderungen anzufordern. Oder verwalten Sie bereits vorhandene technische Benutzer, indem Sie die unten stehende Benutzerverwaltungsfunktion verwenden.",
+        "tableHeader": "Technischen Benutzerlist",
+        "detailsHeader": "Technischer Benutzer: USER_NAME",
+        "detailsPage": {
+          "userDetails": "Technischer Benutzer Details",
+          "description": "Beschreibung",
+          "spoc": "SPOC",
+          "permission": "Berechtigungen"
+        },
+        "confirmDeleteUser": "Sind Sie sicher, dass Sie user '{{ user }}' löschen möchten?",
+        "noteDeleteUser": "Diese Aktion kann nicht rückgängig gemacht werden.",
+        "confirmDeleteNotificationTitle": "Das Löschen des Benutzers war erfolgreich.",
+        "confirmDeleteNotificationDescription": "Die Aktion kann nicht rückgängig gemacht werden. Bitte erstellen Sie einen neuen Benutzer, falls dies erforderlich ist"
+      },
+      "deleteUserConfirm": {
+        "header": "Delete user account",
+        "confirmTitle": "Are you sure you want to delete the user account of {userName}?",
+        "description": "By deleting the account, the access of this user to Cofinity-X as well as any rights and data access will get revoked.",
+        "note": "Note: If you delete the account now, you wont be able to reactivate it later.",
+        "successTitle": "User successfully deleted",
+        "successDescription": "The user is successfully deleted and all rights are disabled.",
+        "errorTitle": "Something went wrong",
+        "errorDescription": "Your user couldn't get deleted. Please try it later again or contact your administrator."
+      },
+      "suspendUserConfirm": {
+        "header": "Suspend user account",
+        "confirmTitle": "Are you sure you want to suspend the user account of {userName}?",
+        "description": "By suspending the account, the access of this user to Cofinity-X as well as any permissions and data accesses will get deactivated temporarily.",
+        "note": "Note: Suspended accounts can get reactivated anytime.",
+        "successTitle": "User successfully suspended",
+        "successDescription": "The user is successfully suspended and all rights are disabled.",
+        "errorTitle": "Something went wrong",
+        "errorDescription": "Your user couldn't get suspended. Please try it later again or contact your administrator."
+      },
+      "resetPasswordConfirm": {
+        "header": "Password Reset",
+        "confirmTitle": "Are you sure you want to reset the password?",
+        "note": "The user {userName} will receive an email to reset the password.",
+        "successTitle": "Password Reset successfully triggered",
+        "successDescription": "The password reset request got send to {userName}.",
+        "errorTitle": "Something went wrong",
+        "errorDescription": "The password reset was unsuccessful. Please try it later again or contact the administrator."
+      },
+      "deleteOwnUserConfirm": {
+        "header": "Delete my user account",
+        "confirmTitle": "Are you sure you want to delete this user account?",
+        "description": "By deleting the account, the access of this user to Cofinity-X as well as any rights and data access will get revoked.",
+        "note": "<strong>Note:<strong/> If you delete the account now, you wont be able to reactivate it later.",
+        "successTitle": "User successfully deleted",
+        "successDescription": "Your user got successfully deleted, you will get disconnected within the following 5 seconds.",
+        "errorTitle": "Something went wrong",
+        "errorDescription": "Your user couldn't get deleted. Please try it later again or contact your administrator."
+      }
+    },
+    "idpmanagement": {
+      "addIdpHeadline": "Identity Provider Konfiguration",
+      "addIdpSubheadline": "Configure your idp connection. Retrieve the metadata config file from your local idp and upload the same in the input field below. Additionally the client_id and secret are needed. <br> Follow the",
+      "idpHelp": "help",
+      "updateIdpSubheadline2": "to find a number of examples of local idp's such as Azure, Keycloak, etc.",
+      "updateIdpHeadline": "Update Identity Provider",
+      "updateIdpSubheadline": "Choose the required settings for your IDP",
+      "enableIdpHeadline": "Activierung Identity Provider {{ idp }}",
+      "enableIdpSubheadline": "This will open another option for people from your company to sign.",
+      "enableIdpSuccessHeadline": "Der Identity Provider wurde erfolgrecih aktiviert.",
+      "enableIdpSuccessSubheadline": "Login Test",
+      "disableIdpHeadline": "Deactiviere Identity Provider {{ idp }}",
+      "disableIdpSubheadline": "Mit der Deaktivierung des IdPs wird ein Zugriff über diesen Login nicht mehr möglich sein. Alle Nutzer müssen sich über den neuen IdP einloggen.",
+      "description": "Here you can manage how the users of your company authenticate with Cofinity-X. On registration we have created an IDP with one user entry for the admin (that's probably you ;). Many companies already have their own IDP where users authenticate using their known company user id and a familiar login mask. In this case you will probably prefer to use your own company IDP and you can create and manage the federation on this page.",
+      "create": "Add Identity Provider"
+    },
+    "idpdetail": {
+      "title": "Identitätsprovider Details",
+      "alias": "Alias",
+      "status": "Status",
+      "displayName": "Anzeigename",
+      "authType": "IDP Typ",
+      "authorizationUrl": "Authentisierungs URL",
+      "metadataUrl": "Metadaten URL",
+      "clientId": "Client ID",
+      "secret": "Secret",
+      "signatureAlgorithm": "Signatur Algorithmus",
+      "clientAuthMethod": "Authentisierungsart",
+      "mappers": "Mapper",
+      "tokenUrl": "Token-URL",
+      "idpTypeSelection": "Auswahl des IdP-Typs",
+      "companyName": "Name der Firma",
+      "done": "Fertig",
+      "loading": "Wird geladen",
+      "load": "Belastung",
+      "selectIpsText": "Wählen Sie den IdP-Typ aus, der neu erstellt werden soll",
+      "addMetaDataText": "Fügen Sie hier Ihre Metadaten-URL hinzu, um automatisch alle für die IDP-Integration relevanten Metadaten einzurichten. Beim Klicken laden. dann wird die Metadatendatei geladen und die entsprechenden Werte werden unten angezeigt.",
+      "idp_meta_description": "Fügen Sie hier Ihre Metadaten-URL hinzu, um automatisch alle für die IDP-Integration relevanten Metadaten einzurichten. Wenn Sie auf Laden klicken, wird die Metadatendatei geladen und die entsprechenden Werte werden unten angezeigt.",
+      "client_id_required_error": "Client-ID ist erforderlich",
+      "client_id_invalid_error": "Bitte geben Sie eine gültige Client-ID ein",
+      "client_secret_required_error": "Clientgeheimnis ist erforderlich",
+      "client_secret_invalid_error": "Bitte geben Sie ein gültiges Client-Secret ein",
+      "metadata_url_required_error": "Metadaten-URL ist erforderlich",
+      "metadata_url_invalid_error": "Bitte geben Sie eine gültige Metadaten-URL ein"
+    },
+    "addUser": {
+      "headline": "Erstelle einen neuen User",
+      "subheadline": "Fügen Sie ein neues Benutzerkonto hinzu, indem Sie den Vor- und Nachnamen des Benutzers sowie die E-Mail-Adresse hinterlegen. Wählen Sie unterhalb der Eingabefelder die jeweiligen Benutzerrollen aus, die der Benutzer haben soll. Eine Rolle ist mindestens erforderlich, um dem Benutzer den Zugriff auf das Netzwerk zu ermöglichen.",
+      "singleUser": "Einzel-Upload",
+      "multipleUser": "Massen-Upload",
+      "multipleUserHeadline": "Mehrere Benutzer per Datei-Upload hinzufügen:",
+      "multipleUserSubheadline": "Bitte verwenden Sie dieses <1>Upload-Vorlage</1>, um mehrere Benutzer per Datei hinzuzufügen",
+      "technicalUserHeadline": "Technischen Nutzer anfragen",
+      "technicalUserSubheadline": "Bitte geben Sie die erforderlichen Informationen ein:",
+      "technicalUserSubheadlineSuccess": "Der technische Benutzer wurde mit den folgenden Daten angelegt:",
+      "technicalUserSubheadlineError": "Something went wrong. The technical user did not got created due to a system error. Please try it later again or contact your administrator.",
+      "chooseUserRole": "Benutzer-Rolle für den Portalzugriff auswählen",
+      "helperText": "Bitte geben Sie alle erforderlichen Informationen ein, bevor Sie fortfahren.",
+      "roleDesc": "Role Description Details",
+      "technicalUser": {
+        "addOverlay": {
+          "service": "Dienst",
+          "username": "Username",
+          "description": "Beschreibung",
+          "spocHeadline": "Single Point of Contact (SPoC)",
+          "org": "Organization name",
+          "email": "E-Mail Address",
+          "name": "Username",
+          "error": {
+            "select": "Bitte wählen Sie einen Wert.",
+            "description": "Bitte geben Sie eine Beschreibung ein."
+          }
+        }
+      }
+    },
+    "addUserRight": {
+      "headline": "Benutzer hinzufügen",
+      "subheadline": "Auswählen und hinzufügen von Benutzern",
+      "noRolesFound": "No user roles found"
+    },
+    "help": {
+      "message": "Fügen Sie hier Inhalte hinzu"
+    },
+    "contact": {
+      "message": "Fügen Sie hier Inhalte hinzu"
+    },
+    "imprint": {
+      "directors": "Vertretungsberechtigter Vorstand",
+      "ceo": "Vorstandsvorsitzender",
+      "deputyCeo": "Stellvertretender Vorstandsvorsitzender",
+      "treasurer": "Schatzmeister",
+      "address": "Anschrift",
+      "contact&support": "Kontakt & Support",
+      "contact&supportDesc": "Auf unserer Supportseite finden Sie Antworten zu vielen Fragen. Sollte Ihre Frage nicht beantwortet werden, verwenden Sie bitte unsere Kontaktformular. Alternativ können Sie uns auch per E-Mail an info@cofinity-x.com kontaktieren.",
+      "privacy": "Datenschutz",
+      "privacyDesc": "Für Fragen zum Thema Datenschutz und der Information, welche Daten von Ihnen erhoben werden, finden Sie alle Details unter folgendem Link:"
+    },
+    "privacy": {
+      "message": "Fügen Sie hier Inhalte hinzu",
+      "notSupportedMessage": "Currently not yet supported"
+    },
+    "terms": {
+      "message": "Fügen Sie hier Inhalte hinzu"
+    },
+    "cookiepolicy": {
+      "description1": "A cookie is a small piece of data (text file) that a website - when visited by a user - asks your browser to store on your device in order to remember information about you, such as your language preference or login information.",
+      "description2": "More specially, we use cookies for the following purposes:",
+      "description2_first": "Assisting you in navigation;",
+      "description2_second": "Assisting in login;",
+      "description2_third": "Remember your preferences and settings;",
+      "description2_fourth": "Detect the size of your screen;",
+      "description2_fifth": "Showing you personlised products / services;",
+      "description3": "Below is a detailed list of the cookies we use on our Website.",
+      "description3_first": "Strictly Necessary Cookies",
+      "description3_second": "Functional Cookies",
+      "description3_third": "Targetting Cookies"
+    },
+    "thirdpartylicenses": {
+      "message": "Diese Pakete werden aktuell vom Cofinity-X Portal eingesetzt."
+    },
+    "account": {
+      "userAccount": "Benutzer Konto",
+      "headerContent": "Verwalten Sie Ihre persönlichen Daten und legen Sie fest, welche Informationen andere sehen können und auf welche Apps Sie zugreifen können.",
+      "manageInfo": "Verwalten Sie Ihre Daten, Privatsphäre und Sicherheit, damit Cofinity-X für Sie besser funktioniert.",
+      "welcome": "Willkommen,",
+      "token": "DEV only: Aktuelles Authentisierungstoken",
+      "copy_to_clipboard": "Token in die Zwischenablage kopieren",
+      "deleteAccount": "Benutzer löschen",
+      "editProfile": "Profil bearbeiten",
+      "suspendAccount": "Benutzer aussetzen",
+      "resetPswrdAccount": "Passwort zurücksetzen",
+      "resetPswrdSuccessMsg": "Password Reset Successfully",
+      "resetPswrdMaxLimitError": "The maximum amount of errors is triggered already. Please try it later again",
+      "resetPswrdUnsuccessfulError": "The password reset was unsuccessful. An issue occurred. Please try It later again",
+      "resetPswrdPermissionsError": "Reset of the password was unsuccessful due to missing permissions.",
+      "appPermissionTable": {
+        "title": "Applikation Berechtigungen",
+        "appName": "App Name",
+        "appProvider": "App Anbieter"
+      },
+      "appSubscription": "App-Abonnements",
+      "searchPlaceholder": "App-Name suchen",
+      "notfound": "Keine Anwendungen gefunden",
+      "editRoles": {
+        "title": "Manage User Assigned Portal Role(s)",
+        "subtitle": "Please select additional roles for the user or unselect any role which should get unassigned. Minimum one role need to get selected.",
+        "successDescription": "Portal Role(s) successfully updated.",
+        "errorDescription": "Something went wrong. Please try it later again or contact your administrator."
+      },
+      "personalInfo": "Persönliche Angaben",
+      "name": "Name",
+      "lastName": "Familienname, Nachname",
+      "email": "Email",
+      "bpn": "BPN",
+      "statusInfo": "Statusinformationen",
+      "status": "Status",
+      "userCreated": "Benutzer erstellt",
+      "issuerInfo": "Emittenteninformationen",
+      "organisation": "Organisation",
+      "adminName": "Administratorname",
+      "AdminEmail": "Admin-E-Mail"
+    },
+    "footer": {
+      "copyright": "Copyright © Cofinity-X GmbH - All rights reserved.",
+      "address": "Cofinity-X GmbH, Musterstrasse 123, 12345 Musterstadt, Germany"
+    },
+    "logout": {
+      "message": "Wir melden Sie nun ab... Wir freuen uns Sie bald wieder hier zu sehen!"
+    },
+    "notfound": {
+      "title": "Etwas ist schief gelaufen.",
+      "description": "Sie haben keinen Zugriff auf diese Seite oder die Seite existiert nicht. Bitte wenden Sie sich an Ihren Administrator.",
+      "button": "Startseite",
+      "message": "Der Inhalt wurde nicht gefunden. Dies kann verschiedene Ursachen haben - entweder",
+      "reason": {
+        "nopermission": "Sie haben keine Berechtigung diesen Inhalt zu sehen oder",
+        "notexisting": "die Seite existiert im Cofinity-X Portal nicht oder",
+        "notimplemented": "sie wurde noch nicht implementiert."
+      },
+      "further": "Wenn Sie denken, dass hier etwas sein sollte kontaktieren Sie bitte Ihren Administrator."
+    },
+    "appdetail": {
+      "usecase": "Anwendungsfall",
+      "language": "Verfügbare App Sprachen",
+      "subscribe": "Abonnieren",
+      "subscribed": "Abonniert",
+      "open": "Offen",
+      "pending": "Angefragt",
+      "description": {
+        "title": "Beschreibung"
+      },
+      "privacy": {
+        "vendorWebsite": "Besuchen Sie die Website des Anbieters",
+        "heading": "Datenschutz",
+        "message": "Die Datenschutzerklärung gibt an, welche Daten die Geschäftsanwendungen erheben, handhaben und verarbeiten. Die nachstehenden Details zeigen explizit, welche Unternehmens-/Benutzerinformationen gesammelt/gespeichert werden.",
+        "notSupportedMessage": "Currently not yet supported",
+        "COMPANY_DATA": "Company Data",
+        "USER_DATA": "User Data",
+        "LOCATION": "Location",
+        "BROWSER_HISTORY": "Browser History",
+        "NONE": "None"
+      },
+      "features": {
+        "title": "Merkmale",
+        "summary": "Zusammenfassung",
+        "keyFeature": "Liste der wichtigsten Funktionen"
+      },
+      "tabs": {
+        "appdetail_description": "Beschreibung",
+        "appdetail_features": "Merkmale",
+        "appdetail_pricing": "Preise",
+        "appdetail_privacy": "Datenschutz-Bestimmungen",
+        "appdetail_document": "Relevante Dokumente",
+        "appdetail_provider": "Anbieterinformationen"
+      },
+      "pricing": {
+        "title": "Preisgestaltung",
+        "startingFrom": "Ab",
+        "pricingModel": "Preismodell",
+        "vendorWebsite": "Besuchen Sie die Website des Anbieters",
+        "freeTrial": "Ja, hat eine kostenlose Testversion",
+        "freeVersion": "Ja, hat eine kostenlose Version",
+        "details": "Preisangaben (vom Anbieter bereitgestellt)",
+        "seeAllPricing": "Alle Preise anzeigen",
+        "paymentFrequency": "Bezahlungshäufigkeit",
+        "planIncludes": "Plan beinhaltet",
+        "showMore": "Zeig mehr",
+        "showLess": "Zeige weniger",
+        "showAll": "Zeige alles"
+      },
+      "howtouse": {
+        "heading": "Nutzungsbedingungen",
+        "message": "Die Nutzungsbedingungen regeln das Verhältnis zwischen App Interessenten und App Anbieter. Die Nutzungsbedingungen, sowie die Datenmodelle und weitere Informationen können durch Anklicken der Hyperlinks eingesehen werden."
+      },
+      "providerInformation": {
+        "heading": "Anbieterinformationen",
+        "message": "Folgend finden Sie alle notwendigen Informationen zum direkten Kontakt zum Anbieter.",
+        "appProvider": "App Anbieter",
+        "website": "Webseite",
+        "email": "E-Mail",
+        "phone": "Telefon"
+      },
+      "pendingTooltip": "Application subscription is pending. The app provider is informed",
+      "subscribedTooltip": "Die App ist bereits von Ihrem Unternehmen abonniert."
+    },
+    "apprelease": {
+      "headerTitle": "App Release Process",
+      "descHeading": "Publish your company app inside the Cofinity-X marketplace",
+      "descMessage": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+      "startCreatingButton": "App Registrierung starten",
+      "registerButton": "App Registrierung starten",
+      "overviewButton": "Übersicht Unternehmens-Apps",
+      "stepHeading": "The process will guide your through the following steps:",
+      "dividerText": "Lets get started to register your app...",
+      "marketplaceHeading": "App Marketplace upcomming submission requirements",
+      "neuButton": "Neu",
+      "marketplaceTitle": "Requirement Lorem ipsum",
+      "marketplaceExplanation": "Expalanation of the requirement",
+      "stepper": {
+        "appMarketCard": "App Card",
+        "appPage": "App Detailseite",
+        "contractAndConsent": "Terms & Conditions",
+        "technicalIntegration": "Technical Integration",
+        "betaTest": "Beta Test",
+        "validateAndPublish": "Validate & Publish"
+      },
+      "appMarketCard": {
+        "headerTitle": "Create App",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "defaultCardAppImageAlt": "Part Chain",
+        "defaultCardAppProvider": "Cofinity-X",
+        "defaultCardAppTitle": "Digital Twin Aspect Debugger",
+        "defaultCardShortDescriptionEN": "[short description EN] Lorem ipsum sapientem ne neque dolor erat",
+        "appTitle": "App title",
+        "appProvider": "App provider",
+        "shortDescriptionEN": "Short Description (en)",
+        "shortDescriptionDE": "Short Description (de)",
+        "title": "Titel",
+        "file": "Datei",
+        "shortDescription": "kurze Beschreibung",
+        "useCaseCategory": "Use Case /Category",
+        "useCaseCategoryPlaceholder": "Choose the relevant use case",
+        "appLanguage": "App Language",
+        "appLanguagePlaceholder": "Select app supported language",
+        "salesManager": "Sales Manager",
+        "salesManagerPlaceholder": "Please select a Sales Manager",
+        "salesManagerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+        "pricingInformation": "Preisinformation",
+        "appLeadImageUpload": "App Lead Image Upload"
+      },
+      "appPage": {
+        "headerTitle": "App Details",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "longDescriptionEN": "Long Description - EN",
+        "longDescriptionDE": "Long Description - DE",
+        "images": "Images",
+        "note": "Notiz:",
+        "maxThreeImages": "Max.3 Images",
+        "connectData": "Connect Data",
+        "dataSecurityInformation": "Data Security Information",
+        "uploadDataPrerequisits": "Upload “Data Prerequisits”",
+        "uploadTechnicalGuide": "Upload “Technical Guide”",
+        "uploadAppContract": "Upload “App Contract”",
+        "providerDetails": "Provider Details",
+        "providerHomePage": "Provider Homepage",
+        "providerContactEmail": "Customer Contact E-Mail",
+        "providerPhoneContact": "Provider Phone Contact",
+        "providerPhoneContactPlaceholder": "e.g. +XX (XXX) XXXXXXXXXX or +XX XXXXXXXXXX or +XXXXXXXXXXXX",
+        "pleaseEnterValidHomePageURL": "Please enter a valid url - eg: https://cofinity-x.com",
+        "pleaseEnterValidEmail": "Please enter a valid Customer Contact E-Mail",
+        "pleaseEnterValidContact": "Please enter a valid Provider Phone Contact in the format +XX (XXX) XXXXXXXXXX or +XX XXXXXXXXXX or +XXXXXXXXXXXX"
+      },
+      "contractAndConsent": {
+        "headerTitle": "Consent & Contract",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "allAgreementsMandatory": "All agreements are mandatory"
+      },
+      "technicalIntegration": {
+        "headerTitle": "Technical Integration",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "step1Header": "1. Single Sign On integration between CX Network and Provider App",
+        "step1HeaderDescription": "[copy] Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. Option porttitor diam voluptua. Cu Eam augue dolor dolores quis,",
+        "clientID": "Client ID",
+        "URL": "URL",
+        "pleaseEnterValidURL": "Please enter a valid URL",
+        "URLPlaceholder": "http://www.loremipsum.de",
+        "clientCreated": "Client created",
+        "step2Header": "2. Upload App Roles",
+        "uploadRolesDescription": "Upload all app roles by using the available upload template (csv) file added attached",
+        "rolesPreview": "Preview of roles contained in the uploaded files:",
+        "uploadAppRolesButton": "Upload App Roles",
+        "step3Header": "3. Enable your Identity Management Solution",
+        "step3HeaderDescription": "[copy] How-To-Text -> Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. Option porttitor diam voluptua. Cu Eam augue dolor dolores quis,",
+        "step4Header": "4. Get Test Users to Test Integration",
+        "step4HeaderDescription": "[copy] Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. Option porttitor diam voluptua. Cu Eam augue dolor dolores quis, ",
+        "createClient": "Create Client",
+        "createTestUser": "Create Test User",
+        "password": "Password",
+        "username": "Username",
+        "successfullyUploadedAppRoles": "Successfully uploaded app roles",
+        "incorrectCSVFileFormat": "CSV file formatting incorrect. Please recheck the columns inside the csv",
+        "template": "Template",
+        "getHelp": "Get Help",
+        "deleteOverlayContent": "Deletion will not be reversable, do you still want to delete?"
+      },
+      "betaTest": {
+        "headerTitle": "CX Test Runs",
+        "headerDescription": "The beta tests are currently not available. Please proceed to the next step. As soon as the tests are released, we will share them with you to enable app specific beta tests before the official app release.",
+        "betaTests": "Beta Tests",
+        "technicalIntegrationTest": "Technical Integration Test",
+        "technicalIntegrationTestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in "
+      },
+      "validateAndPublish": {
+        "headerTitle": "Validate & Publish",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "appDetails": "App Details",
+        "language": "Language :  ",
+        "useCase": "Use Case :  ",
+        "price": "Price :  ",
+        "connectedData": "Connected Data",
+        "dataSecurityInformation": "Data Security Information",
+        "documents": "Documents",
+        "providerInformation": "Provider Information",
+        "consent": "Consent",
+        "cxTestRuns": "CX Test Runs"
+      },
+      "submitApp": {
+        "headerTitle": "App erfolgreich eingereicht!",
+        "headerDescription": "After a review by a Cofinity-X administrator, you will receive",
+        "headerDescriptionComplete": "further information on app release",
+        "yourCatenaXTeam": "Dein Cofinity-X team",
+        "myAppsOverview": "My apps overview"
+      },
+      "appReleaseForm": {
+        "headerTitle": "Create App",
+        "addMore": "Add More",
+        "noItemsSelected": "No Items Selected",
+        "note": "Note:",
+        "OnlyOneFileAllowed": "Only one file for upload allowed",
+        "max3Images": "Max. 3 Images",
+        "minimum": "Minimum",
+        "charactersRequired": " characters required",
+        "maximum": "Maximum",
+        "charactersAllowed": " characters allowed",
+        "validCharactersIncludes": "Valid characters includes: ",
+        "isMandatory": " is mandatory",
+        "fileUploadIsMandatory": "File upload is mandatory",
+        "error": {
+          "title": "Error - something went wrong.",
+          "message": "Please try it again"
+        },
+        "dataSavedSuccessMessage": "Data saved successfully",
+        "roleDeleteSuccessMessage": "Role deleted successfully",
+        "rolesDeleteSuccessMessage": "Roles deleted successfully",
+        "errormessage": "Error! Something went wrong"
+      },
+      "footerButtons": {
+        "help": "Help",
+        "saveAndProceed": "Save & proceed",
+        "save": "Save",
+        "submit": "Submit",
+        "proceed": "Proceed"
+      }
+    },
+    "appPublish": {
+      "headerTitle": "App Publish Process -- India",
+      "descHeading": "Publish your company app inside the Cofinity-X marketplace",
+      "descMessage": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+      "startCreatingButton": "App Registrierung starten",
+      "registerButton": "App Registrierung starten",
+      "overviewButton": "Übersicht Unternehmens-Apps",
+      "stepHeading": "The process will guide your through the following steps:",
+      "dividerText": "Lets get started to register your app...",
+      "marketplaceHeading": "App Marketplace upcomming submission requirements",
+      "neuButton": "Neu",
+      "marketplaceTitle": "Requirement Lorem ipsum",
+      "marketplaceExplanation": "Expalanation of the requirement",
+      "stepper": {
+        "appMarketCard": "App Card",
+        "appPage": "App Detailseite",
+        "contractAndConsent": "Terms & Conditions",
+        "technicalIntegration": "Technical Integration",
+        "betaTest": "Beta Test",
+        "validateAndPublish": "Validate & Publish"
+      },
+      "appMarketCard": {
+        "headerTitle": "Create App",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "defaultCardAppImageAlt": "Part Chain",
+        "defaultCardAppProvider": "Cofinity-X",
+        "defaultCardAppTitle": "Digital Twin Aspect Debugger",
+        "defaultCardShortDescriptionEN": "[short description EN] Lorem ipsum sapientem ne neque dolor erat",
+        "appTitle": "App title",
+        "appProvider": "App provider",
+        "shortDescriptionEN": "Short Description (en)",
+        "shortDescriptionDE": "Short Description (de)",
+        "useCaseCategory": "Use Case /Category",
+        "useCaseCategoryPlaceholder": "Choose the relevant use case",
+        "appLanguage": "App Language",
+        "appLanguagePlaceholder": "Select app supported language",
+        "salesManager": "Sales Manager",
+        "salesManagerPlaceholder": "Please select a Sales Manager",
+        "salesManagerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+        "pricingInformation": "Preisinformation",
+        "appLeadImageUpload": "App Lead Image Upload"
+      },
+      "appPage": {
+        "headerTitle": "App Details",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "longDescriptionEN": "Long Description - EN",
+        "longDescriptionDE": "Long Description - DE",
+        "images": "Images",
+        "note": "Note:",
+        "maxThreeImages": "Max.3 Images",
+        "uploadDataPrerequisits": "Upload “Data Prerequisits”",
+        "uploadTechnicalGuide": "Upload “Technical Guide”",
+        "uploadAppContract": "Upload “App Contract”",
+        "providerDetails": "Provider Details",
+        "providerHomePage": "Provider Homepage",
+        "providerContactEmail": "Customer Contact E-Mail",
+        "providerPhoneContact": "Provider Phone Contact",
+        "providerPhoneContactPlaceholder": "e.g. +XX (XXX) XXXXXXXXXX or +XX XXXXXXXXXX or +XXXXXXXXXXXX",
+        "pleaseEnterValidHomePageURL": "Please enter a valid url - eg: https://cofinity-x.com",
+        "pleaseEnterValidEmail": "Please enter a valid Customer Contact E-Mail",
+        "pleaseEnterValidContact": "Please enter a valid Provider Phone Contact in the format +xx (xxx) xxxxxxxxxx; +xx xxxxxxxxxx and +xxxxxxxxxxxx",
+        "privacyInformation": "Privacy Information",
+        "privacyInformationDescription": "The privacy information is used to display data types the app may collect on the app detail page. You may select several options OR select “none”.",
+        "privacyInfoError": "Error - values couldn't get fetched. Please try it later again"
+      },
+      "contractAndConsent": {
+        "headerTitle": "Consent & Contract",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "allAgreementsMandatory": "All agreements are mandatory",
+        "uploadImageConformity": "Conformity App Certificate",
+        "documentDeleteSuccess": "Document deleted successfully"
+      },
+      "technicalIntegration": {
+        "headerTitle": "Technical Integration",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "step1Header": "1. Single Sign On integration between CX Network and Provider App",
+        "step1HeaderDescription": "[copy] Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. Option porttitor diam voluptua. Cu Eam augue dolor dolores quis,",
+        "clientID": "Client ID",
+        "URL": "URL",
+        "pleaseEnterValidURL": "Please enter a valid URL",
+        "URLPlaceholder": "http://www.loremipsum.de",
+        "clientCreated": "Client created",
+        "step2Header": "2. Upload App Roles",
+        "uploadRolesDescription": "Upload all app roles by using the available upload template (csv) file added attached",
+        "rolesPreview": "Preview of roles contained in the uploaded files:",
+        "uploadAppRolesButton": "Upload App Roles",
+        "step3Header": "3. Enable your Identity Management Solution",
+        "step3HeaderDescription": "[copy] How-To-Text -> Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. Option porttitor diam voluptua. Cu Eam augue dolor dolores quis,",
+        "step4Header": "4. Get Test Users to Test Integration",
+        "step4HeaderDescription": "[copy] Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. Option porttitor diam voluptua. Cu Eam augue dolor dolores quis, ",
+        "createClient": "Create Client",
+        "createTestUser": "Create Test User",
+        "password": "Password",
+        "username": "Username",
+        "successfullyUploadedAppRoles": "Successfully uploaded app roles",
+        "incorrectCSVFileFormat": "CSV file formatting incorrect. Please recheck the columns inside the csv",
+        "template": "Template",
+        "getHelp": "Get Help",
+        "deleteOverlayContent": "Deletion will not be reversable, do you still want to delete?"
+      },
+      "betaTest": {
+        "headerTitle": "CX Test Runs",
+        "headerDescription": "The beta tests are currently not available. Please proceed to the next step. As soon as the tests are released, we will share them with you to enable app specific beta tests before the official app release.",
+        "betaTests": "Beta Tests",
+        "technicalIntegrationTest": "Technical Integration Test",
+        "technicalIntegrationTestDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in "
+      },
+      "validateAndPublish": {
+        "headerTitle": "Validate & Publish",
+        "headerDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .",
+        "appDetails": "App Details",
+        "language": "Language :  ",
+        "useCase": "Use Case :  ",
+        "price": "Price :  ",
+        "conformityDocument": "Conformity Document",
+        "documents": "Documents",
+        "providerInformation": "Provider Information",
+        "consent": "Consent",
+        "cxTestRuns": "CX Test Runs",
+        "longDescriptionTitleEN": "[Long Description - EN] ",
+        "longDescriptionTitleDE": "[Long Description - DE] "
+      },
+      "submit": {
+        "headerTitle": "App erfolgreich eingereicht!",
+        "headerDescription": "After a review by a Cofinity-X administrator, you will receive",
+        "headerDescriptionComplete": "further information on app release",
+        "yourCatenaXTeam": "Dein Cofinity-X team",
+        "myAppsOverview": "My apps overview",
+        "overview": "My apps overview"
+      },
+      "defaultValues": {
+        "conformityDocumentsDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "documentsDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      "appReleaseForm": {
+        "headerTitle": "Create App",
+        "addMore": "Add More",
+        "noItemsSelected": "No Items Selected",
+        "note": "Note:",
+        "OnlyOneFileAllowed": "Only one file for upload allowed",
+        "max3Images": "Max. 3 Images",
+        "minimum": "Minimum",
+        "charactersRequired": " characters required",
+        "maximum": "Maximum",
+        "charactersAllowed": " characters allowed",
+        "validCharactersIncludes": "Valid characters includes: ",
+        "isMandatory": " is mandatory",
+        "fileUploadIsMandatory": "File upload is mandatory",
+        "error": {
+          "title": "Error - something went wrong.",
+          "message": "Please try it again"
+        },
+        "dataSavedSuccessMessage": "Data saved successfully",
+        "roleDeleteSuccessMessage": "Role deleted successfully",
+        "rolesDeleteSuccessMessage": "Roles deleted successfully",
+        "errormessage": "Error! Something went wrong",
+        "fileSizeError": "Uploaded file is too big. Maximum 0.8MB is allowed"
+      },
+      "footerButtons": {
+        "help": "Help",
+        "saveAndProceed": "Save & proceed",
+        "save": "Save",
+        "submit": "Submit",
+        "proceed": "Proceed"
+      }
+    },
+    "serviceMarketplace": {
+      "headline": "Purchase Service Request",
+      "description": "Dear user, you have requested service {serviceName}. Please find below the Terms and Conditions. Please check the terms and conditions carefully before proceeding. As soon as the terms & conditions are approved, the services provider will start to build up the service.",
+      "noDataMessage": "No data available",
+      "subscriptionHeading": ">> there are already active subscriptions for the service {serviceName}",
+      "subscribeSuccessMsg": "Subscribed Successfully",
+      "newServices": "New Services",
+      "recommendations": "Recommendations",
+      "allServices": "All Services",
+      "tabs": {
+        "all": "All Services",
+        "dataspaceService": "Dataspace Services",
+        "consultantService": "Consultant Services"
+      },
+      "sortOptions": {
+        "new": "Newest First",
+        "provider": "Provider"
+      },
+      "document": {
+        "heading": "Nutzungsbedingungen",
+        "message": "Die Nutzungsbedingungen regeln das Verhältnis zwischen App Interessenten und App Anbieter. Die Nutzungsbedingungen, sowie die Datenmodelle und weitere Informationen können durch Anklicken der Hyperlinks eingesehen werden."
+      }
+    },
+    "appMarketplace": {
+      "headline": "Order Business Application",
+      "desc1": "You have started the subscription request for app {appName}.",
+      "desc2": "Please note that the subscription request will trigger a service call on provider side.The app provider will align with you all further steps. This may take up to 5 days.",
+      "desc3": "As soon as all queries are finalized, the app provider will be able to activate your app tenant.",
+      "desc4": "As soon as this is done, a notification will be send to you, which enables you to assign the relevant user roles."
+    },
+    "techUser": {
+      "details": {
+        "clientId": "Client ID",
+        "username": "User Name",
+        "authType": "Auth Type",
+        "clientSercret": "Client Secret"
+      }
+    },
+    "appSubscription": {
+      "headline": "App-Abonnement",
+      "subHeading": "Manage customer subscriptons",
+      "description": "Do you wan't to rather use the autosetup; connect your service to automate marketplace subscription build",
+      "readMore": "Read More",
+      "registerURL": "RegisterURL",
+      "search": "...search by entering the app name here.",
+      "noDataMessage": "No data available",
+      "subscriptionHeading": ">> there are already active subscriptions for the service {serviceName}",
+      "subscribeSuccessMsg": "Subscribed Successfully",
+      "newServices": "New Services",
+      "recommendations": "Recommendations",
+      "allServices": "All Services",
+      "activateBtn": "Activate",
+      "pleaseEnterValidURL": "Please enter a valid URL",
+      "tabs": {
+        "request": "Request",
+        "active": "Active"
+      },
+      "sortOptions": {
+        "customer": "By Customer A-Z",
+        "offer": "By Offer"
+      },
+      "document": {
+        "heading": "Relevant Documents",
+        "message": "The terms of use, as well as the data models and further information can be viewed by clicking on the documents shared below."
+      },
+      "register": {
+        "heading": "Autosetup URL",
+        "message": "This is some text for the dialog component. Lorem ispum dolores mia dela culpa dela rey.",
+        "endpointConfigured": "Endpoint Configured",
+        "autosetupURL": "AutoSetup URL",
+        "providerErrorMessage": "Something went wrong!",
+        "providerSuccessMessage": "Service Provider Details added successfully."
+      },
+      "activation": {
+        "heading": "Activate User Subscription",
+        "description": "This is some text for the dialog component. Lorem ispum dolores mia dela culpa dela rey.",
+        "successDescription": "The technical user has been created with the following data:",
+        "clientId": "Client Id",
+        "clientSecret": "Client Secret"
+      }
+    },
+    "adminBoard": {
+      "headerTitle": "App request management",
+      "search": "search company name/app title",
+      "noDataMessage": "No data available",
+      "tabs": {
+        "open": "Open",
+        "all": "All"
+      },
+      "sortOptions": {
+        "newFirst": "Newest First",
+        "AppTitle": "App Title (A-Z)"
+      },
+      "errorMsg": "Error! Something went wrong",
+      "successMsg": "Successfully completed",
+      "declineModal": {
+        "title": "Reject App Release Request {appName}",
+        "subheading": "Are you sure you want to reject the app release request ?",
+        "declineReason": "The rejection will",
+        "declineReason1Label": "Create a notification & email message to inform the app provider/manager about the rejection",
+        "declineReason2Label": "An individual message with additional details can get shared by adding the details into the input field below",
+        "declineReason3Label": "The app will get set back to the status “in progress“",
+        "inputLabel": "Cancellation Message"
+      }
+    },
+    "adminboardDetail": {
+      "usecase": "Use Case",
+      "language": "Language",
+      "price": "Price",
+      "longDescriptionTitleEN": "[Long Description - EN] ",
+      "longDescriptionTitleDE": "[Long Description - DE] ",
+      "backToBoard": "Back to Admin Board",
+      "connectedData": {
+        "heading": "Connected Data",
+        "message": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts into your mouth.",
+        "message2": "When using the app, the following data may be collected but NOT linked to your identity:",
+        "linked": "Linked to your Identity",
+        "notLinked": "Linked NOT to your Identity"
+      },
+      "securityInfo": {
+        "heading": "Data Security Information",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ..."
+      },
+      "ConformityDocument": {
+        "heading": "Conformity Document",
+        "message": "[copy] Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. Option porttitor diam voluptua. Cu Eam augue dolor dolores quis, "
+      },
+      "Documents": {
+        "heading": "Documents",
+        "message": "[copy] Lorem ipsum sapientem ne neque dolor erat,eros solet invidunt duo Quisque aliquid leo. Pretium patrioque sociis eu nihil Cum enim ad, ipsum alii vidisse justo id. Option porttitor diam voluptua. Cu Eam augue dolor dolores quis, "
+      },
+      "roles": {
+        "heading": "App Roles",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "roleDescription": "The role description is expected to get displayed here in future."
+      },
+      "providerInformation": {
+        "heading": "Provider Information",
+        "message": "If you have any question, want to get in contact or visit the provider website, you can find all necessary information below.",
+        "appProvider": "App Provider",
+        "website": "Website",
+        "email": "Email",
+        "phone": "Phone"
+      }
+    },
+    "checklistOverlay": {
+      "checkList": {
+        "REGISTRATION_VERIFICATION": "Datenvalidierung",
+        "BUSINESS_PARTNER_NUMBER": "BPN Creation",
+        "IDENTITY_WALLET": "Identitäts-Wallet-Erstellung",
+        "CLEARING_HOUSE": "Clearingstelle",
+        "SELF_DESCRIPTION_LP": "Selbstbeschreibung"
+      },
+      "checkListProgress": {
+        "DONE": "genehmigt",
+        "IN_PROGRESS": "im Gange",
+        "FAILED": "fehlgeschlagen",
+        "TO_DO": "machen"
+      },
+      "buttonApprove": "Genehmigen",
+      "buttonConfirm": "Bestätigen",
+      "buttonDecline": "Abfall",
+      "buttonRetrigger": "Retrigger-Prozess",
+      "buttonOverwrite": "Prozess überschreiben",
+      "buttonCancel": "Vorgang abbrechen",
+      "cancel": "Stornieren",
+      "comments": "Kommentare",
+      "nocomments": " Keine Kommentare vorhanden",
+      "buttonClose": "Schließen",
+      "resolveTitle": "Ihre Option zur Lösung des Problems",
+      "REGISTRATION_VERIFICATION": {
+        "stepName": "Data Validation",
+        "stepDescription": "Manual validation of the company registration by the operator. Please check the company details as well as uploaded documents and 'accept' / 'decline' the application; depending on the validation results",
+        "additionalText": "By declining the application; the registration company will not be able to proceed; a new registration will be needed.",
+        "TO_DO": {
+          "title": "Ihre Aktion ist erforderlich, um den Prozess zu starten.",
+          "description": "Validiere die Firmenregistrierungsdaten, sowie die hochgeladenen Dokument und bestätigen sie die Registrierung oder lehnen sie diese ab. Nur durch die Bestätigung werden weitere Prozesschritte ausgeführt."
+        },
+        "IN_PROGRESS": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess ist noch nicht abgeschlossen."
+        },
+        "DONE": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Vorgang ist erfolgreich abgeschlossen."
+        },
+        "FAILED": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Die Registrierungsfirma wurde über das abgelehnte Registrierungsformular informiert. Wenn Sie fortfahren möchten, ist ein neuer Antrag erforderlich."
+        }
+      },
+      "BUSINESS_PARTNER_NUMBER": {
+        "stepName": "BPN-Erstellung",
+        "stepDescription": "Jedes Registrierungsunternehmen muss eine Geschäftspartnernummer erstellen lassen. In diesem Schritt wird die Erstellung des bpdm gegen den bpdm-Datenpool ausgelöst.",
+        "additionalText": "",
+        "TO_DO": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess wird beim nächsten Automatisierungslauf automatisch ausgelöst."
+        },
+        "IN_PROGRESS": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess ist noch nicht abgeschlossen."
+        },
+        "DONE": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Vorgang ist erfolgreich abgeschlossen."
+        },
+        "FAILED": {
+          "title": "Ihr Handeln ist gefragt.",
+          "description": ""
+        }
+      },
+      "IDENTITY_WALLET": {
+        "stepName": "Identitäts-Wallet-Erstellung",
+        "stepDescription": "Bei erfolgreicher Erstellung der Geschäftspartnernummer sowie der manuellen Validierung der Firmenregistrierungsdaten; Die Managed Identity Wallet wird für den Teilnehmer generiert.",
+        "additionalText": "Die BPN-Erstellung war nicht erfolgreich. Sie können den Endpunkt erneut auslösen oder die Firmenregistrierung schließen/ablehnen.",
+        "TO_DO": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess wird beim nächsten Automatisierungslauf automatisch ausgelöst."
+        },
+        "IN_PROGRESS": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess läuft/in Bearbeitung. Sobald das Wallet erstellt ist, wird der Status automatisch aktualisiert."
+        },
+        "DONE": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Vorgang ist erfolgreich abgeschlossen. Das Managed Identity Wallet wurde erstellt."
+        },
+        "FAILED": {
+          "title": "Ihre Aktion ist erforderlich, um fortzufahren",
+          "description": "Die Identity-Wallet-Erstellung ist fehlgeschlagen. Sie können den Job erneut auslösen oder die Firmenregistrierung schließen/ablehnen."
+        }
+      },
+      "CLEARING_HOUSE": {
+        "stepName": "Clearingstelle",
+        "stepDescription": "„Der Gaia-X Clearinghouse-Anbieter validiert das Unternehmensregistrierungsformular (Firmenname, Adresse und eindeutige Kennung) und nach erfolgreicher Validierung werden verifizierte Anmeldeinformationen zur verwalteten Brieftasche des Kunden hinzugefügt.",
+        "additionalText": "",
+        "TO_DO": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess wird beim nächsten Automatisierungslauf automatisch ausgelöst."
+        },
+        "IN_PROGRESS": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess ist noch nicht abgeschlossen."
+        },
+        "DONE": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Vorgang ist erfolgreich abgeschlossen."
+        },
+        "FAILED": {
+          "title": "Ihre Aktion ist erforderlich, um fortzufahren.",
+          "description": "Die Clearinghouse-Prüfung war erfolglos. Details zur nicht erfolgreichen Validierung finden Sie weiter unten. Zusätzlich können Sie den Endpunkt erneut auslösen (durch Zurücksetzen des Status) oder die Firmenregistrierung schließen/ablehnen."
+        }
+      },
+      "SELF_DESCRIPTION_LP": {
+        "stepName": "Self Description",
+        "stepDescription": "Die Erstellung der Selbstbeschreibung war nicht erfolgreich. Einzelheiten zum erfolglosen Vorgang finden Sie unten. Zusätzlich können Sie den Endpunkt erneut auslösen (durch Zurücksetzen des Status) oder die Firmenregistrierung schließen/ablehnen.",
+        "additionalText": "",
+        "TO_DO": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess wird beim nächsten Automatisierungslauf automatisch ausgelöst."
+        },
+        "IN_PROGRESS": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Prozess ist noch nicht abgeschlossen."
+        },
+        "DONE": {
+          "title": "Es sind keine Schritte Ihrerseits erforderlich.",
+          "description": "Der Vorgang ist erfolgreich abgeschlossen."
+        },
+        "FAILED": {
+          "title": "Ihre Aktion ist erforderlich, um fortzufahren.",
+          "description": "Die Erstellung der Selbstbeschreibung war nicht erfolgreich. Einzelheiten zum erfolglosen Vorgang finden Sie unten. Zusätzlich können Sie den Endpunkt erneut auslösen (durch Zurücksetzen des Status) oder die Firmenregistrierung schließen/ablehnen."
+        }
+      }
+    },
+    "roleDetails": {
+      "heading": "Übersicht der verfügbaren Cofinity-X-Portalrollen",
+      "tab1": "Rollenbeschreibungen",
+      "tab2": "Rollenvergleich"
+    }
+  },
+  "navigation": {
+    "subNavigation": {
+      "buttonLabel": "Technische Benutzerverwaltung",
+      "link1Label": "Zugriffsverwaltung",
+      "link2Label": "Identitätsbenutzerverwaltung"
+    }
+  },
+  "notification": {
+    "search": "Geben Sie Ihren Suchwert ein",
+    "cancelButton": "CANCEL",
+    "deleteButton": "DELETE ALWAYS",
+    "actionRequired": "Ihr Handeln ist erforderlich",
+    "deleteModal": {
+      "title": "Nachricht löschen",
+      "intro": "Dies ist Text für die Dialogkomponente. Lorem ispum dolores mia dela culpa dela rey."
+    },
+    "sortOptions": {
+      "new": "Das neuste zuerst",
+      "oldest": "Die ältesten zu erst",
+      "unread": "Ungelesen zuerst",
+      "all": "alle",
+      "app": "nur App",
+      "info": "nur Infos",
+      "withaction": "Nachricht mit Handlungsbedarf"
+    }
+  },
+  "shared": {
+    "dropzone": {
+      "title": "Dateien hierher ziehen",
+      "subTitle": "oder %wähle eine Datei% direkt aus.",
+      "errorTitle": "Es tut uns leid",
+      "placeholder": "",
+      "uploadError": "Nicht hochgeladen",
+      "uploadSuccess": "Hochgeladen",
+      "uploadProgess": "Hochgeladen % of % Dateien"
+    },
+    "userRoles": {
+      "title": "Zugewiesene Cofinity-X-Portalrollen",
+      "changeRoleBtn": "Portalrolle ändern"
+    }
+  },
+  "global": {
+    "field": {
+      "first": "Vorname",
+      "last": "Nachname",
+      "email": "E-Mail",
+      "company": "Firmenname",
+      "status": "Status",
+      "role": "Rolle",
+      "ACTIVE": "Aktiv",
+      "INACTIVE": "Inaktiv",
+      "DELETED": "DELETED",
+      "name": "Name",
+      "details": "Details",
+      "edit": "Edit",
+      "userName": "Benutzername",
+      "clientId": "Client ID",
+      "authType": "Auth Type",
+      "description": "Beschreibung",
+      "secret": "Secret",
+      "permission": "Berechtigung",
+      "userId": "Benutzeridentifikation",
+      "redirectURI": "Redirect-URI",
+      "toBeUpdated": "To be updated",
+      "usageStatistics": "Nutzungsstatistiken",
+      "userBehavior": "Benutzerverhalten",
+      "likedToYourIdentity": "Verknüpft mit Ihrer Identität",
+      "notLikedToYourIdentity": "Nicht mit Ihrer Identität verknüpft"
+    },
+    "actions": {
+      "cancel": "Abbrechen",
+      "confirm": "Bestätigen",
+      "more": "Mehr",
+      "loadmore": "Mehr sehen",
+      "details": "Details",
+      "close": "Schließen",
+      "save": "Speichern",
+      "back": "Zurück",
+      "delete": "Löschen",
+      "pleaseSelect": "Bitte auswählen",
+      "reload": "Seite neuladen",
+      "homepage": "Startseite",
+      "deleteTitle": "Löschen von {{ object }} {{ name }}",
+      "confirmDelete": "Sind Sie sicher, dass Sie den {{ object }} {{ name }} löschen möchten?",
+      "noteDelete": "Anmerkung: das Löschen ist dauerhaft. Es ist nicht möglich den {{ object }} wieder zu aktivieren.",
+      "submit": "Einreichen",
+      "no": "NEIN",
+      "yes": "Ja",
+      "next": "Nächste",
+      "success": "Erfolg",
+      "error": "Fehler"
+    },
+    "state": {
+      "enabled": "aktiv",
+      "disabled": "inaktiv",
+      "enable": "ermöglichen",
+      "disable": "deaktivieren"
+    },
+    "objects": {
+      "app": "App",
+      "user": "Benutzer",
+      "techuser": "Technischer Account",
+      "idp": "identity provider",
+      "filters": "Filter",
+      "noDocumentUploaded": "Keine Dokumente hochgeladen"
+    },
+    "search": {
+      "placeholder": "Suchen Sie nach Apps, Benutzern, Partnern...",
+      "less": "weniger anzeigen",
+      "more": "mehr anzeigen",
+      "category": {
+        "USECASE": "Anwendungsfälle",
+        "APP": "Apps",
+        "USER": "Benutzer",
+        "PARTNER": "Geschäftspartner",
+        "PAGE": "Seiten",
+        "OVERLAY": "Aktionen",
+        "ACTION": "Einstellungen",
+        "NEWS": "Neuigkeiten"
+      }
+    },
+    "userRoles": {
+      "itAdmin": "IT-Administrator",
+      "businessAdmin": "Business Administrator",
+      "cxUser": "CX Teilnehmer",
+      "dataSpecialist": "Data Spezialist",
+      "appDeveloper": "App Entwickler",
+      "appAdmin": "App Administrator"
+    },
+    "errors": {
+      "title": "Oops, Etwas ist schief gelaufen.",
+      "description": "Der Server hat einen internen Fehler oder eine Fehlkonfiguration festgestellt und konnte Ihre Anfrage nicht abschließen.",
+      "additionalDescription": "Bitte wenden Sie sich an Ihren Administrator.",
+      "noDocumentsAvailable": "Keine Dokumente vorhanden"
+    },
+    "table": {
+      "search": "E-Mail-Adresse eingeben, um zu suchen",
+      "searchName": "Geben Sie den Namen ein, um zu suchen",
+      "searchConnector": "Konnektor suchen"
+    },
+    "noData": {
+      "heading": "Keine Daten verfügbar",
+      "description": "Derzeit keine Daten verfügbar; Ändern Sie die Ansicht oder kommen Sie später wieder"
+    }
+  },
+  "servicemarketplace": {
+    "title": "Marktplatz für Dienstanbieter"
+  },
+  "dataspacemarketplace": {
+    "title": "Dataspace Marketplace",
+    "message": "Dataspace Marketplace Beschreibung"
+  },
+  "hints": {
+    "coming_soon": "Demnächst verfügbar",
+    "new": "Neu"
+  }
+}
